@@ -1,0 +1,22 @@
+{
+  "name": "Test2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "migrate": "node_modules/.bin/sequelize db:migrate",
+    "start":"node src/index.js",
+    "init":"node_modules/.bin/sequelize init"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.10.1",
+    "express": "^4.17.1",
+    "graphql": "^14.6.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5",
+    "sequelize-cli": "^5.5.1"
+  }
+}
